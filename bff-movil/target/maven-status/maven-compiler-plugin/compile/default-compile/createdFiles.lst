@@ -1,0 +1,14 @@
+cl\duoc\rutaexpress\bff\movil\BffMovilApplication.class
+cl\duoc\rutaexpress\bff\movil\dtos\core\CuentaCoreDTO.class
+cl\duoc\rutaexpress\bff\movil\clients\MsClientesClient.class
+cl\duoc\rutaexpress\bff\movil\dtos\CuentaMovilDetalleDTO.class
+cl\duoc\rutaexpress\bff\movil\exceptions\CuentaNoEncontradaException.class
+cl\duoc\rutaexpress\bff\movil\clients\MsClientesClient$1.class
+cl\duoc\rutaexpress\bff\movil\controllers\CuentaMovilController.class
+cl\duoc\rutaexpress\bff\movil\dtos\core\MovimientoCoreDTO.class
+cl\duoc\rutaexpress\bff\movil\dtos\MovimientoMovilDTO.class
+cl\duoc\rutaexpress\bff\movil\security\CanalApiKeyFilter.class
+cl\duoc\rutaexpress\bff\movil\clients\MsClientesClient$2.class
+cl\duoc\rutaexpress\bff\movil\config\MsClientesClientConfig.class
+cl\duoc\rutaexpress\bff\movil\dtos\CuentaMovilResumenDTO.class
+cl\duoc\rutaexpress\bff\movil\services\BffMovilService.class
