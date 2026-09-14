@@ -198,8 +198,7 @@ curl -X POST -H "X-Canal-Key: cajero-2026-key" -H "Content-Type: application/jso
      http://localhost:8093/bff/cajero/tarjetas/4551011122223701/retiros
 ```
 
-Guarda las capturas de pantalla o salidas de consola de estas ejecuciones
-como evidencia de ejecución (ver sección 10).
+
 
 ## 8. Estructura del proyecto
 
@@ -236,14 +235,3 @@ BFF existentes: basta con crear un nuevo módulo `bff-<canal>` que copie
 esta misma estructura de carpetas, defina sus propios DTOs (con los
 campos que ese canal realmente necesita) y agregue las llamadas que
 correspondan a los `clients` de los backends centrales.
-
-## 10. Entrega
-
-- **Código fuente:** este repositorio/carpeta comprimida.
-- **Documentación:** este `README.md`.
-- **Evidencia de ejecución:** capturas de pantalla o salidas de consola de
-  cada endpoint listado en la sección 7, incluyendo los casos de error.
-
-Comprime la carpeta completa (código + README + evidencias) con la
-nomenclatura solicitada: `ExpX_Sx_nombre completo` (ej.
-`Exp2_S5_José_Gonzalez_Alvarado`).
