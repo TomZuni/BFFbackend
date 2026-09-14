@@ -12,16 +12,16 @@
     </parent>
 
     <groupId>cl.duoc.pby2203</groupId>
-    <artifactId>rutaexpress-ms-clientes</artifactId>
+    <artifactId>bancoxyz-ms-clientes</artifactId>
     <version>1.0.0</version>
-    <name>rutaexpress-ms-clientes</name>
+    <name>bancoxyz-ms-clientes</name>
     <description>
-        Semana 4 - Backend for Frontend (BFF).
-        "Backend legacy" central de RutaExpress: expone los datos de cuentas de
-        clientes (saldo prepago para envios) y sus movimientos SIN
-        personalizar, tal como lo haria un unico backend generalizado antes de
-        aplicar el patron BFF. Los proyectos bff-web y bff-movil consumen esta
-        API y transforman la respuesta segun las necesidades de cada cliente.
+        Semana 5 - Backend for Frontend (BFF).
+        Backend "legacy" central de Banco XYZ (inspirado en bank_legacy_data):
+        expone SIEMPRE el dato completo de clientes, cuentas y movimientos,
+        igual para cualquier consumidor, tal como lo haria un sistema core
+        generalizado antes de aplicar el patron BFF. No conoce la existencia
+        de los BFF ni de sus canales.
     </description>
 
     <properties>
@@ -33,18 +33,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -68,5 +65,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

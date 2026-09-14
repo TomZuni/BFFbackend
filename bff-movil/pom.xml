@@ -12,14 +12,15 @@
     </parent>
 
     <groupId>cl.duoc.pby2203</groupId>
-    <artifactId>rutaexpress-bff-movil</artifactId>
+    <artifactId>bancoxyz-bff-movil</artifactId>
     <version>1.0.0</version>
-    <name>rutaexpress-bff-movil</name>
+    <name>bancoxyz-bff-movil</name>
     <description>
-        Semana 4 - Backend for Frontend (BFF).
-        BFF Movil de RutaExpress: consume ms-clientes y entrega solo los
-        datos esenciales (campos minimos + ultimos movimientos), pensado para
-        reducir el consumo de ancho de banda en la app movil.
+        Semana 5 - Backend for Frontend (BFF).
+        BFF Movil de Banco XYZ: agrega informacion de ms-clientes y
+        ms-tarjetas pero devuelve solo los campos esenciales, en un
+        payload liviano pensado para minimizar el consumo de datos y
+        mejorar la velocidad de la app movil.
     </description>
 
     <properties>
@@ -31,7 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -55,5 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -12,14 +12,15 @@
     </parent>
 
     <groupId>cl.duoc.pby2203</groupId>
-    <artifactId>rutaexpress-bff-web</artifactId>
+    <artifactId>bancoxyz-bff-web</artifactId>
     <version>1.0.0</version>
-    <name>rutaexpress-bff-web</name>
+    <name>bancoxyz-bff-web</name>
     <description>
-        Semana 4 - Backend for Frontend (BFF).
-        BFF Web de RutaExpress: consume ms-clientes y entrega datos
-        completos (cuenta + historial completo de movimientos + resumen
-        calculado), pensado para paneles de escritorio con vistas complejas.
+        Semana 5 - Backend for Frontend (BFF).
+        BFF Web de Banco XYZ: agrega informacion de ms-clientes y
+        ms-tarjetas para construir un dashboard completo (cliente + cuentas
+        + tarjetas + historial de movimientos + resumen calculado),
+        pensado para una interfaz de escritorio compleja.
     </description>
 
     <properties>
@@ -31,7 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -55,5 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

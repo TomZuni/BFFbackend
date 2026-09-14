@@ -12,16 +12,16 @@
     </parent>
 
     <groupId>cl.duoc.pby2203</groupId>
-    <artifactId>rutaexpress-bff-cajero</artifactId>
+    <artifactId>bancoxyz-bff-cajero</artifactId>
     <version>1.0.0</version>
-    <name>rutaexpress-bff-cajero</name>
+    <name>bancoxyz-bff-cajero</name>
     <description>
-        Semana 4 - Backend for Frontend (BFF).
-        BFF Cajero de RutaExpress: consume ms-clientes y entrega solo la
-        interfaz minima y segura necesaria para operaciones criticas de un
-        punto de autoservicio (consulta de saldo, ultimos movimientos
-        basicos y retiro de saldo), sin exponer campos ni operaciones que
-        ese canal no necesita.
+        Semana 5 - Backend for Frontend (BFF).
+        BFF Cajero de Banco XYZ: interfaz minima y segura para operaciones
+        criticas (consulta de saldo, ultimos movimientos y retiro),
+        operando siempre a partir del NUMERO DE TARJETA (como un cajero
+        real), validando su vigencia en ms-tarjetas antes de operar contra
+        la cuenta en ms-clientes.
     </description>
 
     <properties>
@@ -33,7 +33,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -57,5 +56,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
