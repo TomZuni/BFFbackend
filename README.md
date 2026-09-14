@@ -228,10 +228,3 @@ Dentro de cada BFF, la responsabilidad está separada en capas:
   entrada" que refleja lo que expone cada backend.
 - `security`: filtro de autenticación propio del canal.
 - `exceptions`: mapeadas a códigos HTTP con `@ResponseStatus`.
-
-**Para agregar un nuevo canal** (por ejemplo, un BFF para *smart
-watches*) no es necesario tocar ni `ms-clientes`, ni `ms-tarjetas`, ni los
-BFF existentes: basta con crear un nuevo módulo `bff-<canal>` que copie
-esta misma estructura de carpetas, defina sus propios DTOs (con los
-campos que ese canal realmente necesita) y agregue las llamadas que
-correspondan a los `clients` de los backends centrales.
